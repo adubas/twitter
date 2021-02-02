@@ -25,7 +25,7 @@ docker-compose run web bash
 Uma vez dentro do bash, é necessário:
 
 ```
->> rails s -b 0.0.0.0
+$ rails s -b 0.0.0.0
 ```
 
 A aplicação por default irá rodar na porta 3000
@@ -41,5 +41,5 @@ docker-compose run web bash
 Uma vez dentro do bash, é necessário:
 
 ```
->> rspec
+$ rspec
 ```
