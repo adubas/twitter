@@ -25,6 +25,7 @@ class PostService
   def compose_tweet
     current = GetWeather.new(city).current
     forecast = GetWeather.new(city).forecast
-    "Na cidade de #{city}, a temperatura é de #{current}°C e a previsão para os próximos dias é de #{forecast[0]}, #{forecast[1]}, #{forecast[2]}, #{forecast[3]} e #{forecast[4]}."
+    "Na cidade de #{city}, a temperatura é de #{current}°C e a previsão para os " \
+      "próximos dias é de #{forecast[0]}, #{forecast[1]}, #{forecast[2]}, #{forecast[3]} e #{forecast[4]}."
   end
 end
