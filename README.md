@@ -7,9 +7,11 @@ Pequena aplicação para realizar postagens sobre o tempo no twitter
 Para clonar e buildar a aplicação é necessário ter docker-compose instalado na máquina e executaar no terminal:
 
 ```
-git clone git@github.com:adubas/openweathe_map.git
+git clone git@github.com:adubas/twitter.git
 ```
-
+```
+cd twitter
+```
 ```
 docker-compose build
 ```
